@@ -368,6 +368,9 @@ p {
   letter-spacing: -0.1px;
   margin: 0;
   color: #666d89;
+  height: 36px;
+  width: 130px;
+  overflow: hidden;
 }
 
 .about__banner__info>h5 {
