@@ -8,44 +8,70 @@
   <title>Singolo</title>
 </head>
 
-<footer id="get-in-touch">
-  <div class="footer-border-container">
-    <div class="footer-container">
-      <div class="form-container">
-        <form action="#">
-          <fieldset class="get-in-touch">
-            <legend>Get a Quote<br>
-              <span>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus,
-                nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
-                tortor mauris condimentum nibh.</span></legend>
-            <input class="input-name" type="text" placeholder="Name" required>
-            <input class="input-email" type="email" placeholder="Email" required>
-            <input class="input-text" type="text" placeholder="Subject">
-            <textarea name placeholder="Describe your project in detail..."></textarea>
-          </fieldset>
-          <button class="button-submit" type="submit">SEND</button>
-        </form>
-      </div>
-      <div class="form-text-container">
-        <div><p>
-          Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. 
-        </p></div>
-        <div class="contacts">
-          <div class="icons">
-            <span><img src="./assets/iconlocation.png" alt="location"></span>
-            <span><img src="./assets/iconphone.png" alt="phone"></span>
-            <span><img src="./assets/iconmail.png" alt="mail"></span>
+<body>
+  <section class="get-a-quote">
+    <div class="get-a-quote__wrapper">
+      <p class="get-a-quote__header-text">Get a Quote</p>
+      <p class="get-a-quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
+        commodo luctus, nisi erat porttitor <wbr><span> ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac
+          cursus commodo,
+          tortor mauris condimentum nibh.</span></p>
+      <div class="get-a-quote__container">
+        <div class="form__container">
+          <form class="form" action="#">
+            <fieldset class="form__fieldset">
+              <input class="input-name" type="text" placeholder="Name" required>
+              <input class="input-email" type="email" placeholder="Email" required>
+              <input class="input-text" type="text" placeholder="Subject">
+              <textarea name placeholder="Describe your project in detail..."></textarea>
+            </fieldset>
+            <button class="button-submit" type="submit">SEND</button>
+          </form>
+        </div>
+        <div class="form-text-container">
+          <div>
+            <p class="contact-information">Contact Information</p>
+            <p class="contact-information__text">
+              Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam tellus. Proin sit
+              amet volutpat <wbr> libero. Nulla sed nunc et tortor luctus faucibus. Morbi at <wbr>aliquet turpis, et consequat
+              felis.
+            </p>
           </div>
-          <div class="contacts-info">
-            <a class="adress" href="https://goo.gl/maps/5ywKoijqghG2" target="_blank">Elm St. 14/05 Lost City</a>
-            <a class="phone" href="callto:+35283318635 ">03528 331 86 35 </a>
-            <a class="mail" href="mailto:info@singolo.com">info@singolo.com</a>
+          <div class="contacts">
+            <div class="icons">
+              <span><img src="./assets/iconlocation.png" alt="location"></span>
+              <span><img src="./assets/iconphone.png" alt="phone"></span>
+              <span><img src="./assets/iconmail.png" alt="mail"></span>
+            </div>
+            <div class="contacts-info">
+              <a class="adress" href="https://goo.gl/maps/5ywKoijqghG2" target="_blank">Elm St. 14/05 Lost City</a>
+              <a class="phone" href="callto:+35283318635 ">03528 331 86 35 </a>
+              <a class="mail" href="mailto:info@singolo.com">info@singolo.com</a>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
-  </div>
-  <div class="copyright-container">
-    <p class="copyright-text">© Copyright 2013</p>
-  </div>
-</footer>
+
+
+
+  </section>
+  <footer>
+    <div class="footer__container">
+      <p class="copyright-text">© Copyright 2013</p>
+      <div class="command__content__social">
+        <a class="command__content__social__link" href="https://www.facebook.com" target="_blank">
+          <img src="./assets/facebook.png" alt="Facebook.com"></a>
+        <a class="command__content__social__link" href="https://www.google.com" target="_blank">
+          <img src="./assets/google.png" alt="Google.com"></a>
+        <a class="command__content__social__link" href="https://www.twitter.com" target="_blank">
+          <img src="./assets/twitter.png" alt="Twitter.com"></a>
+        <a class="command__content__social__link" href="https://www.linkedIn.com" target="_blank">
+          <img src="./assets/linkedIn.png" alt="LinkedIn.com"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
