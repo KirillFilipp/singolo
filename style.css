@@ -346,6 +346,10 @@ p {
   grid-gap: 21.0px;
 }
 
+.portfolio__content__image:nth-child(1n+13) {
+  display: none;
+}
+
 .about {
   height: 734px;
   background-color: #f2f2f2;

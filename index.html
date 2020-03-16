@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="script.js" async></script>
   <title>Singolo</title>
 </head>
 
 <body>
 
   <main>
-    <header class="header">
+    <header id="home" class="header">
       <div class="header__content">
         <div class="logo">
           <h1 class="logo__text">SINGOLO</h1>
@@ -19,15 +20,15 @@
         </div>
         <nav class="navigation">
           <ul class="menu">
-            <li class="menu__element"><a href="#home">HOME</a></li>
+            <li class="menu__element"><a class="menu__element__link" href="#home">HOME</a></li>
             <li class="circle"></li>
-            <li class="menu__element"><a href="#services">SERVICES</a></li>
+            <li class="menu__element"><a class="menu__element__link" href="#services">SERVICES</a></li>
             <li class="circle"></li>
-            <li class="menu__element"><a href="#">PORTFOLIO</a></li>
+            <li class="menu__element"><a class="menu__element__link" href="#portfolio">PORTFOLIO</a></li>
             <li class="circle"></li>
-            <li class="menu__element"><a href="#about">ABOUT</a></li>
+            <li class="menu__element"><a class="menu__element__link" href="#about">ABOUT</a></li>
             <li class="circle"></li>
-            <li class="menu__element"><a href="#contact">CONTACT</a></li>
+            <li class="menu__element"><a class="menu__element__link" href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -46,7 +47,7 @@
       </div>
       <div class="slider__panel"><img class="slider__panel__button" src="assets/slideright.svg" alt="Right"></div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <div class="services__wrapper">
         <div class="services__banner">
           <div class="services__banner__head">
@@ -108,7 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="portfolio__wrapper">
         <div class="portfolio__banner">
           <div class="portfolio__banner__head">
@@ -139,11 +140,13 @@
             <img class="portfolio__content__image" src="assets/portfolio10.jpg" alt="Portfolio">
             <img class="portfolio__content__image" src="assets/portfolio11.jpg" alt="Portfolio">
             <img class="portfolio__content__image" src="assets/portfolio12.jpg" alt="Portfolio">
+            <img class="portfolio__content__image" src="assets/portfolio12.jpg" alt="Portfolio">
+
           </div>
         </div>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="about__wrapper">
         <div class="about__banner">
           <div class="about__banner__head">
@@ -214,7 +217,7 @@
         </div>
       </div>
     </section>
-    <section class="get-a-quote">
+    <section id="contact" class="get-a-quote">
       <div class="get-a-quote__wrapper">
         <p class="get-a-quote__header-text">Get a Quote</p>
         <p class="get-a-quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
